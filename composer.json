@@ -1,0 +1,34 @@
+{
+    "name": "aziyan99/laravel-sbadmin",
+    "description": "SBAdmin Template",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "require-dev": {},
+    "authors": [
+        {
+            "name": "aziyan99",
+            "email": "rajaazian08@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aziyan99\\LaravelSbadmin\\SbadminServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Aziyan99\\LaravelSbadmin\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aziyan99\\LaravelSbadmin\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
