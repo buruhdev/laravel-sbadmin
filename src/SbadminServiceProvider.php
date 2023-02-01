@@ -13,6 +13,8 @@ class SbadminServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
-        $this->loadViewsFrom(__DIR__ . '/src/resources/views', 'laravel-sbadmin');
+        $this->publishes([
+            __DIR__.'/resources/views/' => base_path('resources/views')
+        ], 'sbadmin-layouts');
     }
 }
