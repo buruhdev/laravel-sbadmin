@@ -3,8 +3,6 @@
     "description": "SBAdmin Template",
     "type": "library",
     "license": "MIT",
-    "require": {},
-    "require-dev": {},
     "authors": [
         {
             "name": "aziyan99",
