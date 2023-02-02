@@ -1,6 +1,6 @@
 <?php
 
-namespace Aziyan99\LaravelSbadmin;
+namespace Aziyan99\ThemeSbadmin;
 
 use Illuminate\Support\ServiceProvider;
 

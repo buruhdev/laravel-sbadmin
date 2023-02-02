@@ -1,5 +1,5 @@
 {
-    "name": "aziyan99/laravel-sbadmin",
+    "name": "aziyan99/theme-sbadmin",
     "description": "SBAdmin Template",
     "type": "library",
     "license": "MIT",
@@ -14,19 +14,19 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Aziyan99\\LaravelSbadmin\\SbadminServiceProvider"
+                "Aziyan99\\ThemeSbadmin\\SbadminServiceProvider"
             ],
             "aliases": {}
         }
     },
     "autoload": {
         "psr-4": {
-            "Aziyan99\\LaravelSbadmin\\": "src"
+            "Aziyan99\\ThemeSbadmin\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Aziyan99\\LaravelSbadmin\\Tests\\": "tests"
+            "Aziyan99\\ThemeSbadmin\\Tests\\": "tests"
         }
     },
     "minimum-stability": "dev",
