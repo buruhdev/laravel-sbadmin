@@ -63,7 +63,7 @@
 
             </div>
         </main>
-        <x-sbadmin.footer />
+        <x-sbadmin.footer-component />
     </div>
 </div>
 <script src="{{ asset('sbadmin') }}/js/bootstrap.bundle.min.js"></script>

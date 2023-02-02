@@ -25,7 +25,7 @@ class FooterComponent extends Component
         $this->showTermsConditionsLink = config('sbadmin.show_terms_conditions_link');
         $this->TermsConditionsLink = config('sbadmin.terms_conditions_link');
         $this->currentYear = date('Y', time());
-        $this->appName = env(APP_NAME, 'SBAdmin');
+        $this->appName = env('APP_NAME', 'SBAdmin');
     }
 
     /**
