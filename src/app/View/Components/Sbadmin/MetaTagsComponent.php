@@ -1,11 +1,14 @@
 <?php 
 
-namespace Aziyan99\ThemeSbadmin\View\Components;
+namespace App\View\Components\Sbadmin;
 
 use Illuminate\View\Component;
 
 class MetaTagsComponent extends Component
 {
+    public string $author;
+    public string $description;
+
     /**
      * Create a new component instance.
      *
@@ -13,7 +16,8 @@ class MetaTagsComponent extends Component
      */
     public function __construct()
     {
-        //
+        $this->author = config('sbadmin.author');
+        $this->description = config('sbadmin.description');
     }
 
     /**

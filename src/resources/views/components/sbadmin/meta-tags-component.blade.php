@@ -1,2 +1,2 @@
-<meta name="description" content="" />
-<meta name="author" content="" />
+<meta name="description" content="{{ $description }}" />
+<meta name="author" content="{{ $author }}" />
