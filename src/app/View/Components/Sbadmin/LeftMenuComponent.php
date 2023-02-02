@@ -7,16 +7,14 @@ use Illuminate\View\Component;
 class LeftMenuComponent extends Component
 {
 
-    public string $appName;
-
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct(): void
+    public function __construct()
     {
-        $this->appName = env('APP_NAME', 'SBAdmin');
+        //
     }
 
     /**

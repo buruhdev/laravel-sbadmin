@@ -14,7 +14,7 @@ class LeftMenuComponent extends Component
      *
      * @return void
      */
-    public function __construct(): void
+    public function __construct()
     {
         $this->appName = env('APP_NAME', 'SBAdmin');
     }
