@@ -4,8 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <x-sbadmin.meta-tags-component />
     <title>@yield('title')</title>
     <link href="{{ asset('sbadmin') }}/css/styles.css" rel="stylesheet" />
     <script src="{{ asset('sbadmin') }}/js/fontawesome.v6.js"></script>
