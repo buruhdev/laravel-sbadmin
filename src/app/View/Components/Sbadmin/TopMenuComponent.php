@@ -4,7 +4,7 @@ namespace App\View\Components\Sbadmin;
 
 use Illuminate\View\Component;
 
-class LeftMenuComponent extends Component
+class TopMenuComponent extends Component
 {
 
     public string $appName;
