@@ -1,6 +1,6 @@
 <?php
 
-namespace Aziyan99\ThemeSbadmin;
+namespace Buruhdev\Sbadmin;
 
 use Illuminate\Support\ServiceProvider;
 
